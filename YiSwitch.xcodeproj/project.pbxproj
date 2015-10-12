@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ADACAAD1BCB3730005AF71E /* YiSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADACAAC1BCB3730005AF71E /* YiSwitch.m */; settings = {ASSET_TAGS = (); }; };
 		A1CEC2BF1A90A86E007C8CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEC2BE1A90A86E007C8CA4 /* main.m */; };
 		A1CEC2C21A90A86E007C8CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEC2C11A90A86E007C8CA4 /* AppDelegate.m */; };
 		A1CEC2C51A90A86E007C8CA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEC2C41A90A86E007C8CA4 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		A1CEC2CA1A90A86E007C8CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CEC2C91A90A86E007C8CA4 /* Images.xcassets */; };
 		A1CEC2CD1A90A86E007C8CA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CEC2CB1A90A86E007C8CA4 /* LaunchScreen.xib */; };
 		A1CEC2D91A90A86E007C8CA4 /* YiSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEC2D81A90A86E007C8CA4 /* YiSwitchTests.m */; };
-		A1CEC2E41A90A8AC007C8CA4 /* YiSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEC2E31A90A8AC007C8CA4 /* YiSwitch.m */; };
 		A1CEC2F51A90B887007C8CA4 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CEC2F21A90B887007C8CA4 /* button.png */; };
 		A1CEC2F61A90B887007C8CA4 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CEC2F31A90B887007C8CA4 /* right.png */; };
 		A1CEC2F71A90B887007C8CA4 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CEC2F41A90B887007C8CA4 /* wrong.png */; };
@@ -31,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ADACAAB1BCB3730005AF71E /* YiSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiSwitch.h; sourceTree = "<group>"; };
+		0ADACAAC1BCB3730005AF71E /* YiSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiSwitch.m; sourceTree = "<group>"; };
 		A1CEC2B91A90A86E007C8CA4 /* YiSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CEC2BD1A90A86E007C8CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1CEC2BE1A90A86E007C8CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		A1CEC2D21A90A86E007C8CA4 /* YiSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CEC2D71A90A86E007C8CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1CEC2D81A90A86E007C8CA4 /* YiSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiSwitchTests.m; sourceTree = "<group>"; };
-		A1CEC2E21A90A8AC007C8CA4 /* YiSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiSwitch.h; sourceTree = "<group>"; };
-		A1CEC2E31A90A8AC007C8CA4 /* YiSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiSwitch.m; sourceTree = "<group>"; };
 		A1CEC2F21A90B887007C8CA4 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		A1CEC2F31A90B887007C8CA4 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		A1CEC2F41A90B887007C8CA4 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
@@ -69,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ADACAAA1BCB3730005AF71E /* YiSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0ADACAAB1BCB3730005AF71E /* YiSwitch.h */,
+				0ADACAAC1BCB3730005AF71E /* YiSwitch.m */,
+			);
+			path = YiSwitch;
+			sourceTree = "<group>";
+		};
 		A1CEC2B01A90A86E007C8CA4 = {
 			isa = PBXGroup;
 			children = (
@@ -90,13 +99,12 @@
 		A1CEC2BB1A90A86E007C8CA4 /* YiSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				0ADACAAA1BCB3730005AF71E /* YiSwitch */,
 				A1CEC2F11A90B887007C8CA4 /* image */,
 				A1CEC2C01A90A86E007C8CA4 /* AppDelegate.h */,
 				A1CEC2C11A90A86E007C8CA4 /* AppDelegate.m */,
 				A1CEC2C31A90A86E007C8CA4 /* ViewController.h */,
 				A1CEC2C41A90A86E007C8CA4 /* ViewController.m */,
-				A1CEC2E21A90A8AC007C8CA4 /* YiSwitch.h */,
-				A1CEC2E31A90A8AC007C8CA4 /* YiSwitch.m */,
 				A1CEC2C61A90A86E007C8CA4 /* Main.storyboard */,
 				A1CEC2C91A90A86E007C8CA4 /* Images.xcassets */,
 				A1CEC2CB1A90A86E007C8CA4 /* LaunchScreen.xib */,
@@ -245,8 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CEC2C51A90A86E007C8CA4 /* ViewController.m in Sources */,
+				0ADACAAD1BCB3730005AF71E /* YiSwitch.m in Sources */,
 				A1CEC2C21A90A86E007C8CA4 /* AppDelegate.m in Sources */,
-				A1CEC2E41A90A8AC007C8CA4 /* YiSwitch.m in Sources */,
 				A1CEC2BF1A90A86E007C8CA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
