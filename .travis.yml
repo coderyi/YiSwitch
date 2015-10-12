@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: YiSwitch.xcodeproj
+xcode_scheme: YiSwitch
